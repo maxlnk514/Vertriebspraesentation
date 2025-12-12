@@ -1,0 +1,1043 @@
+{
+  "title": "TecOverview",
+  "actions": [
+    {
+      "code": "UPDATE(#tecVisible.getpages)\nCLICK(#DataStore.load)\nLOOKUP(\"TecOverview\";#AdminSelectPage.visiblePages;SEQUENCE(#AdminSelectPage.visiblePages)) > 0",
+      "type": "VISIBLE"
+    }
+  ],
+  "displayName": null,
+  "description": null,
+  "position": 26,
+  "availabilityInLiveMode": false,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1530",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "940",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 121,
+        "y": 40,
+        "order": 12,
+        "width": 90,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "24",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 918,
+        "y": 223,
+        "order": 14,
+        "width": 172,
+        "height": 316
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "CreateMember",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          133,
+          133,
+          133
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": [
+        {
+          "code": "CREATEMEMBER(#table4!B;#table4!A)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1099,
+        "y": 223,
+        "order": 15,
+        "width": 145,
+        "height": 316
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "Hiddentext",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          112,
+          112,
+          112,
+          112,
+          112
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": [
+        {
+          "code": "HIDDENTEXT(#CreateMember)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 503,
+        "y": 34,
+        "order": 7,
+        "width": 140,
+        "height": 124
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image10",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 643,
+        "y": 25,
+        "order": 10,
+        "width": 150,
+        "height": 100
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image2",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 24,
+        "y": 44,
+        "order": 11,
+        "width": 70,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image3",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "90bc479a-e3b5-4001-a144-830ebd4de38e.png"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1250,
+        "y": 223,
+        "order": 16,
+        "width": 122,
+        "height": 38
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "klickSeite",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            {
+              "hiddenText": "Agenda_Overview",
+              "displayText": "Agenda"
+            }
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 221,
+        "y": 44,
+        "order": 4,
+        "width": 50,
+        "height": 50
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "StyleZahlen",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "24",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#2b2b2b",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Montserrat",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            2
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 121,
+        "y": 158,
+        "order": 1,
+        "width": 270,
+        "height": 419
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": false,
+        "hasShadow": false,
+        "rowHeight": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          270,
+          270,
+          270,
+          270,
+          270
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "horizontal",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "COLUMN"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "scrollRef": {
+        "currentWidget": "table1",
+        "scrollRefVerticalWidget": "table3",
+        "scrollRefHorizontalWidget": "table3",
+        "currentPage": "TecOverview"
+      },
+      "actions": [
+        {
+          "code": "#tecVisible.VisibleSeiten",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 415,
+        "y": 163,
+        "order": 6,
+        "width": 70,
+        "height": 419
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "table3",
+      "cellStyles": {
+        "value": [
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "stylesMap": [
+          {
+            "fontSize": "24",
+            "bgPattern": "DIAGONAL_FORWARD",
+            "fontColor": "#2b2b2b",
+            "hasBorder": false,
+            "background": "#ffffff",
+            "borderSize": "1",
+            "fontFamily": "Montserrat",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#d4d4d4",
+            "hasBgPattern": false,
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": false,
+            "borderPosition": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "verticalAlignment": "center"
+          }
+        ]
+      },
+      "styles": {
+        "hasGrid": false,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": false,
+        "hasShadow": false,
+        "rowHeight": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "COLUMN"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": [
+        {
+          "code": "SEQUENCE(#table1)",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#StyleZahlen",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 601,
+        "y": 223,
+        "order": 13,
+        "width": 301,
+        "height": 316
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "table4",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          128,
+          170,
+          170,
+          170,
+          170,
+          170
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "TecOverview"
+      },
+      "actions": [
+        {
+          "code": "COMBINE(#TecVisible.VisibleSeiten;LOOKUP(#TecVisible.VisibleSeiten;#TecVisible.GetPages2!B;#TecVisible.GetPages2!C))",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": {
+    "childPageTitle": "TecOverview",
+    "parentTitle": "Agenda_Overview",
+    "appTitle": "Vertriebspräsentation - DE -Latest Version"
+  }
+}

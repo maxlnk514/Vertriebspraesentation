@@ -1,0 +1,1645 @@
+{
+  "title": "Team_v1",
+  "actions": [
+    {
+      "code": "UPDATE(#tecVisible.getpages)\nCLICK(#DataStore.load)\nLOOKUP(\"Team_v1\";#AdminSelectPage.visiblePages;SEQUENCE(#AdminSelectPage.visiblePages)) > 0",
+      "type": "VISIBLE"
+    }
+  ],
+  "displayName": "Team",
+  "description": "Team",
+  "position": 32,
+  "availabilityInLiveMode": false,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1400",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "787",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1169,
+        "y": 7,
+        "order": 61,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "AnzahlWeiter",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            1
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 198,
+        "y": 536,
+        "order": 16,
+        "width": 201,
+        "height": 32
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell10",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "22",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#2b2b2b",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#25bee0",
+        "borderSize": "1",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "JÜRGEN GÜNTHER"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 921,
+        "y": 536,
+        "order": 18,
+        "width": 180,
+        "height": 32
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell12",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "22",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#2b2b2b",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#25bee0",
+        "borderSize": "1",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "DIETER HÖFER"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 110,
+        "y": 599,
+        "order": 62,
+        "width": 254,
+        "height": 181
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell16",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": [
+        {
+          "code": "OPEN(LOOKUP(IF(#AnzahlWeiter==1;LOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)-1;\nLOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)-2);\n    #tecVisible.SequenceVisibleSeiten;#tecVisible.VisibleSeiten))",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 99,
+        "y": 97,
+        "order": 31,
+        "width": 5,
+        "height": 100
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#25bee0",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 199,
+        "y": 593,
+        "order": 52,
+        "width": 195,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell25",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "18",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#4a4a4a",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#25bee0",
+        "borderSize": "1",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Geschäftsführer"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 922,
+        "y": 589,
+        "order": 54,
+        "width": 221,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell27",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "18",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#4a4a4a",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#25bee0",
+        "borderSize": "1",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Sales Director"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 101,
+        "y": 0,
+        "order": 28,
+        "width": 1,
+        "height": 787
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#c8c8c8",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 201,
+        "y": 582,
+        "order": 37,
+        "width": 65,
+        "height": 1
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell4",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#25bee0",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 192,
+        "y": 83,
+        "order": 32,
+        "width": 517,
+        "height": 129
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell5",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "49",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#2b2b2b",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#25bee0",
+        "borderSize": "1",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "UNSERE TEAMMITGLIEDER"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 925,
+        "y": 583,
+        "order": 39,
+        "width": 65,
+        "height": 0
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell7",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#25bee0",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1177,
+        "y": 17,
+        "order": 64,
+        "width": 211,
+        "height": 104
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell8",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": [
+        {
+          "code": "OPEN(\"pdf\")",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1119,
+        "y": 599,
+        "order": 56,
+        "width": 273,
+        "height": 181
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell9",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": [
+        {
+          "code": "OPEN(LOOKUP(IF(#AnzahlWeiter==1;LOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)+1;\nLOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)+2);\n    #tecVisible.SequenceVisibleSeiten;#tecVisible.VisibleSeiten))",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 923,
+        "y": 645,
+        "order": 48,
+        "width": 20,
+        "height": 20
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image10",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "bac02fe6-0e03-49bf-bd56-36669a934b9c.svg"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 28,
+        "y": 18,
+        "order": 30,
+        "width": 45,
+        "height": 27
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image109",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#b77070",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "71289cb5-4563-4f52-9029-e6f480d10722.svg"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": [
+        {
+          "code": "OPEN(\"Agenda_Overview\";onwidget)",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 924,
+        "y": 676,
+        "order": 49,
+        "width": 20,
+        "height": 20
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image11",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "41719a14-a0f4-46b8-a4b5-fa967b1665d3.svg"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 191,
+        "y": 278,
+        "order": 34,
+        "width": 240,
+        "height": 240
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image3",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "9fe86b73-58d5-46b3-8b83-538a80518866.png"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 908,
+        "y": 278,
+        "order": 36,
+        "width": 240,
+        "height": 240
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image4",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "65590c9d-dcd5-40c8-b1f8-906a4a7f335a.png"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 201,
+        "y": 646,
+        "order": 40,
+        "width": 20,
+        "height": 20
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image5",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "ee9f7b0f-b6ba-481d-817d-377bfc3ba3ad.svg"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 202,
+        "y": 677,
+        "order": 41,
+        "width": 20,
+        "height": 20
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image6",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "c480f150-0b2b-4a21-960a-7ac75748a241.svg"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 34,
+        "y": 738,
+        "order": 29,
+        "width": 36,
+        "height": 29
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image7",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#fff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "510a66d3-5597-4e8b-923b-401f2bcae160.svg"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 948,
+        "y": 641,
+        "order": 50,
+        "width": 191,
+        "height": 29
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "text12",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "TEXT",
+      "rawData": {
+        "value": [
+          [
+            "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"color: #4a4a4b;font-family: Jura;font-size: 16px;\",\"text\":\"+49 171-6794 199\",\"type\":\"text\",\"version\":1}],\"direction\":null,\"format\":\"right\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":null,\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 938,
+        "y": 671,
+        "order": 51,
+        "width": 201,
+        "height": 29
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "text13",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "TEXT",
+      "rawData": {
+        "value": [
+          [
+            "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"color: #4a4a4b;font-family: Jura;font-size: 16px;\",\"text\":\"d.hoefer@nedyx.com\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"right\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 226,
+        "y": 642,
+        "order": 42,
+        "width": 191,
+        "height": 29
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "text8",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "TEXT",
+      "rawData": {
+        "value": [
+          [
+            "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"color: #4a4a4b;font-family: Jura;font-size: 16px;\",\"text\":\"+49 173-9452 831\",\"type\":\"text\",\"version\":1}],\"direction\":null,\"format\":\"right\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":null,\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 216,
+        "y": 672,
+        "order": 43,
+        "width": 201,
+        "height": 29
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "text9",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "TEXT",
+      "rawData": {
+        "value": [
+          [
+            "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"color: #4a4a4b;font-family: Jura;font-size: 16px;\",\"text\":\"j.guenther@nedyx.com\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"right\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Team_v1"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": {
+    "childPageTitle": "Team_v1",
+    "parentTitle": "Vertriebspraesentation",
+    "appTitle": "Vertriebspräsentation - DE -Latest Version"
+  }
+}

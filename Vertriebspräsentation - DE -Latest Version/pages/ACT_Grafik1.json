@@ -1,0 +1,1194 @@
+{
+  "title": "ACT_Grafik1",
+  "actions": [
+    {
+      "code": "UPDATE(#tecVisible.getpages)\nCLICK(#DataStore.load)\nLOOKUP(\"ACT_Grafik1\";#AdminSelectPage.visiblePages;SEQUENCE(#AdminSelectPage.visiblePages)) > 0",
+      "type": "VISIBLE"
+    }
+  ],
+  "displayName": "Säulengrafik",
+  "description": "Säulengrafik",
+  "position": 62,
+  "availabilityInLiveMode": false,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1400",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "787",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1193,
+        "y": 0,
+        "order": 12,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "AnzahlWeiter",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            1
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 339,
+        "y": 115,
+        "order": 5,
+        "width": 214,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "13",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "\"Sales in Mio. nach Product Category\"",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 10,
+        "y": 606,
+        "order": 7,
+        "width": 254,
+        "height": 181
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell21",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "OPEN(LOOKUP(IF(#AnzahlWeiter==1;LOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)-1;\nLOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)-2);\n    #tecVisible.SequenceVisibleSeiten;#tecVisible.VisibleSeiten))",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1102,
+        "y": 589,
+        "order": 8,
+        "width": 273,
+        "height": 181
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell22",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "OPEN(LOOKUP(IF(#AnzahlWeiter==1;LOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)+1;\nLOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)+2);\n    #tecVisible.SequenceVisibleSeiten;#tecVisible.VisibleSeiten))",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 83,
+        "y": 7,
+        "order": 9,
+        "width": 363,
+        "height": 46
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "16",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#2b2b2b",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "\"Filtern nach verschiedenen Kriterien\"",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 762,
+        "y": 41,
+        "order": 15,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell4",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "//UPDATE(#tecVisible.getpages)\n//CLICK(#AdminSelectPage.button7)\nLOOKUP(\"ACT_Grafik1\";#AdminSelectPage.visiblePages;SEQUENCE(#AdminSelectPage.visiblePages)) > 0",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1177,
+        "y": 17,
+        "order": 16,
+        "width": 211,
+        "height": 104
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell7",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "OPEN(\"pdf\")",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": true,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 3,
+        "y": 117,
+        "order": 0,
+        "width": 1397,
+        "height": 670
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "chart1",
+      "cellStyles": {
+        "value": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stylesMap": [
+          {
+            "fontSize": "15",
+            "bgPattern": "DIAGONAL_FORWARD",
+            "fontColor": "#222222",
+            "hasBorder": false,
+            "background": "#bdbdbd",
+            "borderSize": "1",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#d4d4d4",
+            "hasBgPattern": false,
+            "fontTextAlign": "auto",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "borderPosition": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "verticalAlignment": "center"
+          }
+        ]
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "chartType": "column",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": false,
+        "hasShadow": false,
+        "hideXAxis": false,
+        "hideYAxis": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "chartLegend": false,
+        "chartOffset": 2,
+        "showTooltip": false,
+        "borderRadius": "0",
+        "chartStacked": false,
+        "gridPosition": "horizontal",
+        "chartLineType": "smooth",
+        "chartPosition": "end",
+        "displayLabels": true,
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "chartAlignment": "top",
+        "chartLineStyle": "solid",
+        "chartPointSize": 5,
+        "chartSuggested": true,
+        "showDataInRows": false,
+        "chartColumnSize": 60,
+        "chartPointShape": "circle",
+        "chartHasZeroLine": false,
+        "chartTransparency": 0,
+        "isCenteredDataset": true,
+        "chartBarPercentage": 60,
+        "chartLineThickness": 2,
+        "chartZeroLineColor": "#444444",
+        "chartZeroLineWidth": 2,
+        "chartConnectionLine": false,
+        "chartLegendPosition": "top",
+        "showDataNameInFirstRow": false,
+        "chartConnectionLineColor": "#888888",
+        "chartConnectionLineWidth": 1
+      },
+      "type": "CHART",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "COMBINE(\n    #TecGrafik1.playgroundTable!K;#TecGrafik1.playgroundTable!W\n)",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#TecGrafik1.StyleGrau",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "__typename": "WidgetFormat",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 474,
+        "y": 75,
+        "order": 4,
+        "width": 200,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            1
+          ]
+        ],
+        "__typename": "WidgetEditableEvaluated"
+      },
+      "title": "FilterCity",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "20",
+        "wordWrap": true,
+        "fontColor": "#2b2b2b",
+        "hasBorder": true,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "2",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "selected": [
+          4
+        ],
+        "viewType": "MENU",
+        "__typename": "MenuWidgetData",
+        "defaultItem": null,
+        "dataSourceOptions": {
+          "key": "",
+          "port": "1433",
+          "type": "ODBC",
+          "token": "",
+          "value": "",
+          "dbName": "playground",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "dbuser",
+          "reference": "TecGrafik1.SQLConnection",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "rows": null,
+            "table": "GlobalSuperstore",
+            "schema": "dbo",
+            "columns": [
+              {
+                "name": "City",
+                "type": "nvarchar",
+                "levels": null,
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [
+              "FilterState"
+            ],
+            "noAggregate": false,
+            "hierarchyNumLevels": null,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#TecGrafik1.SQLConnection",
+          "type": "CONNECTION"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "__typename": "WidgetFormat",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 7,
+        "y": 75,
+        "order": 2,
+        "width": 200,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            1
+          ]
+        ],
+        "__typename": "WidgetEditableEvaluated"
+      },
+      "title": "FilterRegion",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "20",
+        "wordWrap": true,
+        "fontColor": "#2b2b2b",
+        "hasBorder": true,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "2",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "selected": [
+          0
+        ],
+        "viewType": "MENU",
+        "__typename": "MenuWidgetData",
+        "defaultItem": null,
+        "dataSourceOptions": {
+          "key": "",
+          "port": "1433",
+          "type": "ODBC",
+          "token": "",
+          "value": "",
+          "dbName": "playground",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "dbuser",
+          "reference": "TecGrafik1.SQLConnection",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "rows": null,
+            "table": "GlobalSuperstore",
+            "schema": "dbo",
+            "columns": [
+              {
+                "name": "Region",
+                "type": "nvarchar",
+                "levels": null,
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#TecGrafik1.SQLConnection",
+          "type": "CONNECTION"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "__typename": "WidgetFormat",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 239,
+        "y": 75,
+        "order": 3,
+        "width": 200,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            1
+          ]
+        ],
+        "__typename": "WidgetEditableEvaluated"
+      },
+      "title": "FilterState",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "20",
+        "wordWrap": true,
+        "fontColor": "#2b2b2b",
+        "hasBorder": true,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "2",
+        "fontFamily": "Jura",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "selected": [
+          3
+        ],
+        "viewType": "MENU",
+        "__typename": "MenuWidgetData",
+        "defaultItem": null,
+        "dataSourceOptions": {
+          "key": "",
+          "port": "1433",
+          "type": "ODBC",
+          "token": "",
+          "value": "",
+          "dbName": "playground",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "dbuser",
+          "reference": "TecGrafik1.SQLConnection",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "rows": null,
+            "table": "GlobalSuperstore",
+            "schema": "dbo",
+            "columns": [
+              {
+                "name": "State",
+                "type": "nvarchar",
+                "levels": null,
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [
+              "FilterRegion"
+            ],
+            "noAggregate": false,
+            "hierarchyNumLevels": null,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#TecGrafik1.SQLConnection",
+          "type": "CONNECTION"
+        }
+      ]
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 10,
+        "y": 17,
+        "order": 13,
+        "width": 45,
+        "height": 27
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "image109",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#b77070",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          [
+            "ae73250e-cf16-499d-bbd5-8cc7032d54c1.svg"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ACT_Grafik1"
+      },
+      "actions": [
+        {
+          "code": "OPEN(\"Agenda_Overview\";onwidget)",
+          "type": "CLICK"
+        }
+      ]
+    }
+  ],
+  "parentId": {
+    "childPageTitle": "ACT_Grafik1",
+    "parentTitle": "Vertriebspraesentation",
+    "appTitle": "Vertriebspräsentation - DE -Latest Version"
+  }
+}

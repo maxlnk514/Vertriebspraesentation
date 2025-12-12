@@ -1,0 +1,1906 @@
+{
+  "title": "ChatGPT",
+  "actions": [
+    {
+      "code": "UPDATE(#tecVisible.getpages)\nCLICK(#DataStore.load)\nLOOKUP(\"ChatGPT\";#AdminSelectPage.visiblePages;SEQUENCE(#AdminSelectPage.visiblePages)) > 0\n",
+      "type": "VISIBLE"
+    }
+  ],
+  "displayName": null,
+  "description": null,
+  "position": 20,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1140",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "1080",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 997,
+        "y": 7,
+        "order": 34,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "AnzahlWeiter",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            1
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "__typename": "WidgetFormat",
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 553,
+        "y": 364,
+        "order": 9,
+        "width": 503,
+        "height": 98
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            1
+          ]
+        ],
+        "__typename": "WidgetEditableEvaluated"
+      },
+      "title": "body",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": null,
+        "fontSize": "15",
+        "gridSize": null,
+        "wordWrap": true,
+        "chartMaxY": null,
+        "chartMinY": null,
+        "chartType": null,
+        "fontColor": "#222222",
+        "gridColor": null,
+        "hasBorder": false,
+        "hasShadow": true,
+        "hideXAxis": null,
+        "hideYAxis": null,
+        "rowHeight": [
+          30
+        ],
+        "__typename": "WidgetStyles",
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "chartLegend": null,
+        "chartOffset": null,
+        "columnWidth": [
+          70
+        ],
+        "borderRadius": "6",
+        "chartOptions": null,
+        "chartStacked": null,
+        "gridPosition": null,
+        "chartLineType": null,
+        "chartPosition": null,
+        "displayLabels": null,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "labelRotation": null,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "chartAlignment": null,
+        "chartLineStyle": null,
+        "chartPointSize": null,
+        "chartSuggested": null,
+        "showDataInRows": null,
+        "chartColumnSize": null,
+        "chartPointShape": null,
+        "chartHasZeroLine": null,
+        "chartTransparency": null,
+        "isAdjustToContent": null,
+        "isCenteredDataset": null,
+        "verticalAlignment": "center",
+        "chartBarPercentage": null,
+        "chartLineThickness": null,
+        "chartZeroLineColor": null,
+        "chartZeroLineWidth": null,
+        "chartLegendPosition": null,
+        "showDataNameInFirstRow": null
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": null,
+        "__typename": "WidgetData"
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "SUBSTITUTE(#bodyTemplate; \"%QUESTION%\";#question)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "__typename": "WidgetFormat",
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 834,
+        "order": 5,
+        "width": 504,
+        "height": 79
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            1
+          ]
+        ],
+        "__typename": "WidgetEditableEvaluated"
+      },
+      "title": "bodyTemplate",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": null,
+        "fontSize": "15",
+        "gridSize": null,
+        "wordWrap": true,
+        "chartMaxY": null,
+        "chartMinY": null,
+        "chartType": null,
+        "fontColor": "#222222",
+        "gridColor": null,
+        "hasBorder": false,
+        "hasShadow": true,
+        "hideXAxis": null,
+        "hideYAxis": null,
+        "rowHeight": [
+          30
+        ],
+        "__typename": "WidgetStyles",
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "chartLegend": null,
+        "chartOffset": null,
+        "columnWidth": [
+          70
+        ],
+        "borderRadius": "6",
+        "chartOptions": null,
+        "chartStacked": null,
+        "gridPosition": null,
+        "chartLineType": null,
+        "chartPosition": null,
+        "displayLabels": null,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "labelRotation": null,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "chartAlignment": null,
+        "chartLineStyle": null,
+        "chartPointSize": null,
+        "chartSuggested": null,
+        "showDataInRows": null,
+        "chartColumnSize": null,
+        "chartPointShape": null,
+        "chartHasZeroLine": null,
+        "chartTransparency": null,
+        "isAdjustToContent": null,
+        "isCenteredDataset": null,
+        "verticalAlignment": "center",
+        "chartBarPercentage": null,
+        "chartLineThickness": null,
+        "chartZeroLineColor": null,
+        "chartZeroLineWidth": null,
+        "chartLegendPosition": null,
+        "showDataNameInFirstRow": null
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "{\"model\": \"gpt-4o\", \"messages\": [ {\"role\": \"user\",\"content\": \"%QUESTION%\"}]}"
+          ]
+        ],
+        "viewType": null,
+        "__typename": "WidgetData"
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 16,
+        "y": 74,
+        "order": 11,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "callurl",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [
+            "CALLURL"
+          ]
+        ],
+        "dataSourceOptions": {
+          "port": "",
+          "type": "REST",
+          "token": "",
+          "dbName": "",
+          "driver": "NotSet",
+          "server": "https://api.openai.com/v1/",
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "",
+          "reference": "ChatGPT.restAPI",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "BearerToken",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": "",
+            "table": "",
+            "columns": [],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "#response = CALLURL(#command; \"POST\";#body)",
+          "type": "CLICK"
+        },
+        {
+          "code": "#restAPI",
+          "type": "CONNECTION"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 16,
+        "y": 29,
+        "order": 3,
+        "width": 767,
+        "height": 28
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell10",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "24",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#25bee1",
+        "hasBorder": true,
+        "hasShadow": false,
+        "background": "#e6e5e5",
+        "borderSize": "2",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#25bee1",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "bottom"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Example - ChatGPT"
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 803,
+        "order": 28,
+        "width": 145,
+        "height": 24
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell11",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Body template"
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 771,
+        "order": 31,
+        "width": 145,
+        "height": 24
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell12",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Question template"
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 929,
+        "y": 15,
+        "order": 35,
+        "width": 211,
+        "height": 104
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell14",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "OPEN(\"pdf\")",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 14,
+        "y": 884,
+        "order": 32,
+        "width": 254,
+        "height": 181
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell21",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "OPEN(LOOKUP(IF(#AnzahlWeiter==1;LOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)-1;\nLOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)-2);\n    #tecVisible.SequenceVisibleSeiten;#tecVisible.VisibleSeiten))",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 847,
+        "y": 884,
+        "order": 33,
+        "width": 273,
+        "height": 181
+      },
+      "enabled": false,
+      "editable": {
+        "value": [
+          [
+            false
+          ]
+        ]
+      },
+      "title": "cell22",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "OPEN(LOOKUP(IF(#AnzahlWeiter==1;LOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)+1;\nLOOKUP(PAGE(current);#tecVisible.VisibleSeiten;#tecVisible.SequenceVisibleSeiten)+2);\n    #tecVisible.SequenceVisibleSeiten;#tecVisible.VisibleSeiten))",
+          "type": "CLICK"
+        },
+        {
+          "code": "#TecStyle.StyleNav",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 16,
+        "y": 254,
+        "order": 27,
+        "width": 504,
+        "height": 765
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#25bee1",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "baseline"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "#table3!B1",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 268,
+        "order": 13,
+        "width": 145,
+        "height": 24
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell6",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Command"
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 341,
+        "order": 14,
+        "width": 145,
+        "height": 24
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell7",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Body"
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 473,
+        "order": 15,
+        "width": 145,
+        "height": 24
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell8",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Response"
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 558,
+        "y": 147,
+        "order": 16,
+        "width": 145,
+        "height": 24
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "cell9",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Question"
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 292,
+        "order": 6,
+        "width": 431,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "command",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "chat/completions"
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 191,
+        "order": 7,
+        "width": 507,
+        "height": 71
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "question",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#bdbdbd",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "baseline"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "//SUBSTITUTE(#questionTemplate; \"%Themen%\";#Themen)\n#questionTemplate",
+          "type": "CONTENT"
+        },
+        {
+          "code": "CLICK(#callurl)",
+          "type": "INPUT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 16,
+        "y": 140,
+        "order": 30,
+        "width": 504,
+        "height": 92
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "questionTemplate",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#f7f7ac",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "baseline"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "Gib mir eine Zusammenfassung zu diesen Themen: Lowcode, Baumarkt Sektor, Planung und Forecast. "
+          ]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 501,
+        "order": 12,
+        "width": 504,
+        "height": 138
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "response",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "verticalAlignment": "baseline"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [
+            "{\"id\":\"chatcmpl-Cj0TAygKbcCRzfG0TY3IT2f0wBfsU\",\"object\":\"chat.completion\",\"created\":1764842600,\"model\":\"gpt-4o-2024-08-06\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"Gerne! Hier ist eine kurze Zusammenfassung zu den genannten Themen:\\n\\n1. **Low-Code**: Low-Code-Plattformen sind Entwicklungsumgebungen, die eine vereinfachte Erstellung von Anwendungen ermöglichen. Sie nutzen visuelle Schnittstellen und Drag-and-Drop-Funktionalität, um den Programmieraufwand zu minimieren. Diese Plattformen sind besonders nützlich für Unternehmen, die schnell Prototypen entwickeln oder Geschäftsprozesse anpassen müssen, ohne auf umfassende Programmierungsexpertise zurückzugreifen. Low-Code fördert die Agilität und erlaubt es auch nicht-technischen Benutzern, an der Entwicklung von Anwendungen teilzunehmen.\\n\\n2. **Baumarktsektor**: Der Baumarktsektor umfasst Einzelhändler, die Produkte für Bau-, Renovierungs- und Heimwerkerprojekte anbieten. In Zeiten wirtschaftlicher Unsicherheit oder steigender Immobilieneigentumsraten wird dieser Sektor oft als robust angesehen. Trends im Baumarktsektor umfassen die Zunahme von DIY-Projekten, Nachhaltigkeit und umweltfreundliche Produkte, sowie eine verstärkte Integration von Technologie, wie zum Beispiel E-Commerce-Plattformen für Online-Verkäufe und -Bestellungen.\\n\\n3. **Planung und Forecast**: Planung und Forecasting sind essenzielle Geschäftsprozesse zur Bestimmung zukünftiger Entwicklungen innerhalb eines Unternehmens. Planung ist ein strategischer Prozess, bei dem langfristige Ziele festgelegt und Maßnahmen zu deren Erreichung entwickelt werden. Forecasting bezieht sich auf die Prognose zukünftiger Ereignisse, wie Umsatz, Nachfrage oder Markttrends, basierend auf historischen Daten und Analysen. Beide Prozesse erfordern Präzision und Anpassungsfähigkeit, um sich ändernde Marktbedingungen erfolgreich zu navigieren und geeignete Geschäftsentscheidungen zu treffen.\\n\\nDiese Themenübersicht zeigt, wie Technologie, Handel und strategisches Management interagieren, um Effizienz und Wettbewerbsfähigkeit in ihrem jeweiligen Bereich zu verbessern.\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":30,\"completion_tokens\":397,\"total_tokens\":427,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"service_tier\":\"default\",\"system_fingerprint\":\"fp_e819e3438b\"}"
+          ]
+        ]
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 650,
+        "order": 24,
+        "width": 507,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [
+          30
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "ROW"
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "JSONTORANGE(#response)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 688,
+        "order": 25,
+        "width": 440,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "table2",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [
+          30
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "ROW"
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "JSONTORANGE(#table1!E)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 552,
+        "y": 732,
+        "order": 26,
+        "width": 440,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [
+            true
+          ]
+        ]
+      },
+      "title": "table3",
+      "cellStyles": {
+        "stylesMap": [],
+        "value": [],
+        "noCellStyles": true
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [
+          30
+        ],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [
+            null
+          ]
+        ],
+        "viewType": "ROW"
+      },
+      "visible": false,
+      "titleInfo": {
+        "pageTitle": "ChatGPT"
+      },
+      "actions": [
+        {
+          "code": "JSONTORANGE(#table2!B1)",
+          "type": "CONTENT"
+        }
+      ]
+    }
+  ],
+  "parentId": {
+    "childPageTitle": "ChatGPT",
+    "parentTitle": "Vertriebspraesentation",
+    "appTitle": "Vertriebspräsentation - DE -Latest Version"
+  }
+}

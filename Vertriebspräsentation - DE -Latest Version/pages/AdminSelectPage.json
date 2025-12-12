@@ -1348,7 +1348,7 @@
       },
       "actions": [
         {
-          "code": "EXPORTAPPTOGIT(#cell4;\"maxlnk514/Vertriebspraesentation\";\"main\";\"commit\")",
+          "code": "EXPORTAPPTOGIT(#cell4;\"maxlnk514/Vertriebspraesentation\";\"main\";\"hallo\")",
           "type": "CLICK"
         },
         {
@@ -1370,10 +1370,10 @@
         "tabOrderName": ""
       },
       "geometry": {
-        "x": 623,
-        "y": 870,
-        "width": 152,
-        "height": 53,
+        "width": 90,
+        "height": 35,
+        "x": 657,
+        "y": 758,
         "order": 44
       },
       "enabled": true,
